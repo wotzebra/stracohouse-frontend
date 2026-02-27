@@ -9,7 +9,7 @@ useHead({
     <!-- Architectural Sketch -->
     <div class="sketch-container fade-in">
       <img
-        src="/assets/house-sketch.png"
+        src="/assets/house-sketch.svg"
         alt="Straco House"
         class="sketch"
       />
@@ -33,7 +33,7 @@ useHead({
     <!-- Footer Logo -->
     <div class="logo-bottom fade-in-delay-2">
       <img
-        src="/assets/straco-logo.png"
+        src="/assets/straco-logo.svg"
         alt="Straco"
         class="logo"
       />
