@@ -36,3 +36,4 @@ Place these images in `public/assets/`:
 - `straco-logo.png` - Straco logo
 
 These should be the same assets used in the email invitations.
+
