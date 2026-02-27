@@ -53,7 +53,7 @@ useHead({
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
@@ -62,8 +62,8 @@ useHead({
 }
 
 .sketch {
-  max-width: 750px;
-  width: 100%;
+  max-width: 650px;
+  width: 80vw;
   height: auto;
 }
 
