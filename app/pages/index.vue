@@ -53,7 +53,7 @@ useHead({
 }
 
 .logo {
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 
@@ -62,7 +62,7 @@ useHead({
 }
 
 .sketch {
-  max-width: 600px;
+  max-width: 750px;
   width: 100%;
   height: auto;
 }
@@ -104,7 +104,7 @@ useHead({
 /* Responsive */
 @media (max-width: 600px) {
   .sketch {
-    max-width: 320px;
+    max-width: 90%;
   }
 
   .title {
@@ -113,7 +113,7 @@ useHead({
   }
 
   .logo {
-    width: 80px;
+    width: 100px;
   }
 }
 </style>
