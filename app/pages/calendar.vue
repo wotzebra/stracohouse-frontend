@@ -86,7 +86,7 @@ useHead({
 .subtitle {
   display: flex;
   justify-content: space-between;
-  width: 185px;
+  width: 200px;
   font-size: 12px;
   font-weight: 300;
   color: #ffffff;
@@ -105,7 +105,7 @@ useHead({
 .title {
   display: flex;
   justify-content: space-between;
-  width: 185px;
+  width: 200px;
   font-size: 14px;
   font-weight: 300;
   color: #ffffff;
