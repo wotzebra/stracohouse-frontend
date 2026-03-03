@@ -88,7 +88,7 @@ useHead({
   font-weight: 300;
   letter-spacing: 4px;
   color: #888888;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   text-transform: uppercase;
 }
 

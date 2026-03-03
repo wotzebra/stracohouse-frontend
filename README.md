@@ -1,6 +1,11 @@
-# Straco House Website
+# Straco House - Placeholder Website
 
-Placeholder website for Straco House opening event.
+"Coming Soon" placeholder website for stracohouse.be.
+
+## Live Site
+
+- **Production**: https://stracohouse.be
+- **Workers URL**: https://stracohouse-frontend.suppliers-f48.workers.dev
 
 ## Development
 
@@ -9,31 +14,58 @@ npm install
 npm run dev
 ```
 
-## Build
+Open http://localhost:3000
+
+## Build & Deploy
+
+### Automatic (via GitHub)
+Push to `main` branch triggers automatic deployment via Cloudflare Workers.
 
 ```bash
-npm run build
+git add -A
+git commit -m "Your changes"
+git push
 ```
 
-## Deploy to Cloudflare Pages
-
-### Option 1: Direct Upload
+### Manual Deploy
 ```bash
 npm run build
-npx wrangler pages deploy .output/public
+npx wrangler deploy
 ```
 
-### Option 2: GitHub Integration
-1. Push to GitHub
-2. Connect repo in Cloudflare Pages dashboard
-3. Build command: `npm run build`
-4. Build output: `.output/public`
+## Project Structure
 
-## Assets
+```
+site/
+├── app/
+│   ├── app.vue
+│   ├── pages/
+│   │   └── index.vue      # Main placeholder page
+│   └── assets/
+│       └── css/main.css
+├── public/
+│   ├── assets/
+│   │   ├── house-sketch.svg  # Architectural drawing
+│   │   └── straco-logo.svg   # Straco logo
+│   ├── favicon.svg
+│   └── favicon.png
+├── nuxt.config.ts
+└── wrangler.toml
+```
 
-Place these images in `public/assets/`:
-- `house-sketch.png` - Architectural wireframe
-- `straco-logo.png` - Straco logo
+## Tech Stack
 
-These should be the same assets used in the email invitations.
+- **Framework**: Nuxt 4
+- **Hosting**: Cloudflare Workers
+- **Repository**: github.com/wotzebra/stracohouse-frontend
 
+## Design
+
+- Full black background (#000000)
+- Architectural house sketch (SVG)
+- "COMING SOON" text
+- "STRACO HOUSE" text
+- "October 2026" date
+- Straco logo footer
+
+Matches the email invitation design.
