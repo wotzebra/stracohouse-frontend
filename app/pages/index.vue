@@ -6,28 +6,31 @@ useHead({
 
 <template>
   <main class="page">
-    <!-- Architectural Sketch -->
-    <div class="sketch-container fade-in">
-      <img
-        src="/assets/house-sketch.svg"
-        alt="Straco House"
-        class="sketch"
-      />
-    </div>
+    <!-- Main content centered -->
+    <div class="main-content">
+      <!-- Architectural Sketch -->
+      <div class="sketch-container fade-in">
+        <img
+          src="/assets/house-sketch.svg"
+          alt="Straco House"
+          class="sketch"
+        />
+      </div>
 
-    <!-- Text Content -->
-    <div class="content">
-      <p class="coming-soon fade-in-delay-1">
-        coming soon
-      </p>
+      <!-- Text Content -->
+      <div class="content">
+        <p class="coming-soon fade-in-delay-1">
+          coming soon
+        </p>
 
-      <h1 class="title fade-in-delay-1">
-        straco house
-      </h1>
+        <h1 class="title fade-in-delay-1">
+          straco house
+        </h1>
 
-      <p class="date fade-in-delay-2">
-        October 2026
-      </p>
+        <p class="date fade-in-delay-2">
+          October 2026
+        </p>
+      </div>
     </div>
 
     <!-- Footer Logo -->
@@ -47,9 +50,16 @@ useHead({
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 60px 20px;
+  padding: 60px 20px 40px 20px;
   background-color: #000000;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -58,18 +68,17 @@ useHead({
 }
 
 .sketch-container {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .sketch {
-  max-width: 650px;
+  max-width: 350px;
   width: 80vw;
   height: auto;
 }
 
 .content {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .coming-soon {
@@ -98,13 +107,13 @@ useHead({
 }
 
 .logo-bottom {
-  margin-top: 10px;
+  margin-top: auto;
 }
 
 /* Responsive */
 @media (max-width: 600px) {
   .sketch {
-    max-width: 90%;
+    max-width: 280px;
   }
 
   .title {
