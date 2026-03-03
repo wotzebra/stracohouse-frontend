@@ -87,8 +87,8 @@ useHead({
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 4px;
-  color: #888888;
-  margin-bottom: 8px;
+  color: #ffffff;
+  margin-bottom: 3px;
   text-transform: uppercase;
 }
 
@@ -97,7 +97,7 @@ useHead({
   font-weight: 300;
   letter-spacing: 3px;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .title {
@@ -105,15 +105,15 @@ useHead({
   font-weight: 300;
   letter-spacing: 6px;
   color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   text-transform: uppercase;
 }
 
 .instruction {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 300;
   letter-spacing: 3px;
-  color: #666666;
+  color: #ffffff;
   margin-bottom: 25px;
   text-transform: uppercase;
 }
@@ -148,7 +148,7 @@ useHead({
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 
