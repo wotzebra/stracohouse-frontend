@@ -27,17 +27,17 @@ useHead({
 <template>
   <main class="page">
     <div class="content">
-      <p class="subtitle">
-        save the date
-      </p>
+      <div class="subtitle">
+        <span>S</span><span>A</span><span>V</span><span>E</span><span>&nbsp;</span><span>T</span><span>H</span><span>E</span><span>&nbsp;</span><span>D</span><span>A</span><span>T</span><span>E</span>
+      </div>
 
       <h1 class="date">
         {{ formattedDate }}
       </h1>
 
-      <p class="title">
-        straco house
-      </p>
+      <div class="title">
+        <span>S</span><span>T</span><span>R</span><span>A</span><span>C</span><span>O</span><span>&nbsp;</span><span>H</span><span>O</span><span>U</span><span>S</span><span>E</span>
+      </div>
 
       <p class="instruction">
         add to your calendar
@@ -84,11 +84,13 @@ useHead({
 }
 
 .subtitle {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
   font-size: 12px;
   font-weight: 300;
-  letter-spacing: 4px;
   color: #ffffff;
-  margin-bottom: 3px;
+  margin: 0 auto 3px auto;
   text-transform: uppercase;
 }
 
@@ -101,11 +103,13 @@ useHead({
 }
 
 .title {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
   font-size: 14px;
   font-weight: 300;
-  letter-spacing: 6px;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
   text-transform: uppercase;
 }
 
