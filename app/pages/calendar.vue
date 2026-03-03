@@ -139,7 +139,7 @@ useHead({
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #333333;
+  border: 1px solid #ffffff;
   transition: border-color 0.2s ease;
 }
 
